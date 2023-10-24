@@ -1,0 +1,132 @@
+/*breakout*/
+@media screen and (max-width:768px) {
+    
+    .Hero-content{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Hero-Title{
+        top: 6%;
+        text-align: center;
+        padding: 15px;
+    }
+    .Small-Heading{
+        font-size: 8vw;
+        padding: 0;
+        margin: 0;
+    }
+    .Large-Heading{
+        margin: 0;
+        padding: 0;
+        font-size: 12vw;
+    }
+    .joy-logo{
+        width: 22vw;
+    }
+}
+@media screen and (min-width:768px) {
+    .Hero-content{
+        max-width: 100%;
+        position: relative;
+    }
+    
+    .Hero-Title{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+    }
+     .Small-Heading{
+     font-size: 3vw;
+     padding: 0;
+     margin: 0;
+     }
+     .Large-Heading{
+     margin: 0;
+     padding: 0;
+     font-size: 10vw;
+     }
+
+}
+@media screen and (max-width:990px){
+    #col-6{
+        padding: 0% 5% 0% 8%;
+    }
+    #col-6 h3, h5{
+        font-size: 5vw;
+    }
+    .col p{
+        font-size: 3vw;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col img{
+        width: 100%;
+        height: 100%;
+    }
+   
+}
+ 
+@media screen and (max-width:1400px){
+    .Hero-img{
+        max-width: 100%;
+    }
+    .Hero-content{
+        display: flex;
+    }
+    #section-4{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}   
+
+@media screen and (min-width:1400px){
+    .Hero-img{
+        max-width: 90vh;
+    }
+    .joy-logo{
+        max-width: 10vw;
+    }
+}
+
+/*breakout*/
+.hero-bg{
+    background-color: #f9db7a;
+    width: 100%;
+    height: 100%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.row{
+    width: 100%;
+}
+.section-2-main{
+    display: grid;
+    justify-content: center;
+}
+.section-2-main img{
+    width: 50vw;
+    height: 40vw;
+}
+.section-3-main{
+    padding: 0% 15%;
+}
+.section-3-main img{
+    width: 100%;
+}
+.section-4-main img{
+    width:100%;
+    height:100%;
+}
+/*footer*/
